@@ -1,2 +1,3 @@
 FROM ubuntu
-ENTRYPOINT ["/bin/bash", "-c", "echo hello"]
+ENTRYPOINT ["/bin/bash"]
+CMD ["hello"]
